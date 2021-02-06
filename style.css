@@ -44,6 +44,7 @@ height: 250px;
 }
 /*descripcion  */
 .section{
+    font-size: 30px;
     width: 80%;
     display: grid;
     grid-template-columns: repeat(12,1fr);
@@ -52,7 +53,7 @@ height: 250px;
 }   
 .description{
     grid-column: 2/12;
-    text-align: center;
+    text-align: start;
     font-size: 18px;
     color:#ffffff ;
 } 
@@ -79,7 +80,7 @@ color: #6A42FC;
 .card{
     width: 220px;
     height: 260px;
-    background: #181717;
+    background: #171717;
     margin: 20px;
 }
 .card:hover{
@@ -91,6 +92,42 @@ color: #6A42FC;
     padding: 10px;
     
 }
-
-
+/* publicidad para descargar : arreglar algunos atributos */
+.publicidad{
+    width: 100%;
+    height:600px;
+    background: #171717;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 5px;
+    padding: 80px;
+}
+.pub img{
+    grid-column: 1/2;
+    width: 90%;
+    margin:  auto;
+}
+.pub p {
+    grid-column: 2/3;
+    font-size: 30px;
+    color: #cccccc;
+    margin:  auto;
+}
+.DWLD{
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: bold;
+}
+.cta{
+    width: 200px;
+    background:#6A42FC;
+    border: 5px solid #6A42FC;
+    color: #ffffff;
+    display: inline-block;
+    text-align: center;
+    padding: 10px 0 ;
+    text-decoration: none;
+    margin-top: 30px;
+    font-size: 25px;
+}
 
